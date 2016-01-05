@@ -1,10 +1,10 @@
 portaudio-go
 ============
 
-The package provides Go bindings for [PortAudio](http://www.portaudio.com).
-All the code has been generated automatically by rules defined in `portaudio.yml`.
+The package provides Go bindings for [PortAudio](http://www.portaudio.com). <br/>
+All the code has automatically been generated with rules defined in [portaudio.yml](/portaudio.yml).
 
-## Usage
+### Usage
 
 ```
 $ brew install portaudio
@@ -13,7 +13,7 @@ $ brew install portaudio
 $ go get github.com/xlab/portaudio-go/portaudio
 ```
 
-## Rebuilding the package
+### Rebuilding the package
 
 You will need to get the [cgogen](https://git.io/cgogen) tool installed first.
 
