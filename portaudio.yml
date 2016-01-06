@@ -16,10 +16,10 @@ TRANSLATOR:
     enum: cgo
   PtrTips:
     function:
-      - {target: "IsFormatSupported$", tips: [ref, ref]}
-      - {target: "OpenStream$", tips: [ref, ref, ref, -, -, -, ref]}
-      - {target: "OpenDefaultStream$", tips: [ref, -, -, -, -, -, ref]}
-      - {target: "PaStreamCallback$", tips: [-,-,-,ref]}
+      - {target: "IsFormatSupported$", tips: [ref,ref]}
+      - {target: "OpenStream$", tips: [ref,ref,ref,0,0,0,ref]}
+      - {target: "OpenDefaultStream$", tips: [ref,0,0,0,0,0,ref]}
+      - {target: "PaStreamCallback$", tips: [0,0,0,ref]}
       - {target: "SetStreamFinishedCallback$", tips: [ref,ref]}
       - {target: "Stream", tips: [ref]}
   Rules: 
