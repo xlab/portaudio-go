@@ -13,6 +13,8 @@ $ brew install portaudio
 $ go get github.com/xlab/portaudio-go/portaudio
 ```
 
+See [example#1](https://github.com/xlab/alac-go/blob/master/cmd/alac-player/main.go).
+
 ### Rebuilding the package
 
 You will need to get the [cgogen](https://git.io/cgogen) tool installed first.
