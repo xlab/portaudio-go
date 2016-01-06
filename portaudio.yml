@@ -26,6 +26,8 @@ TRANSLATOR:
     global: 
       - {action: accept, from: "^Pa"}
       - {action: replace, from: "^Pa"}
+    const:
+      - {action: accept, from: "^pa"}
     type: 
       - {action: replace, from: "_t$"}
     private:
