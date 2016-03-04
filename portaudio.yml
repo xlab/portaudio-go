@@ -12,7 +12,7 @@ PARSER:
 
 TRANSLATOR: 
   ConstRules: 
-    decl: expand
+    defines: expand
     enum: cgo
   PtrTips:
     function:
